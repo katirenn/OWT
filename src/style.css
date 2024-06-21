@@ -1,0 +1,45 @@
+p.dotted {
+  border: 6px dotted #ff6347;
+}
+p.dashed {
+  border-style: dashed;
+  border-width: medium;
+  border-color: #3700ff;
+}
+p.solid {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+}
+p.double {
+  border-style: double;
+  border-width: thick;
+  border-color: #ff80ca #3700ff #ff6347 #1fd571;
+}
+p.groove {
+  border-style: groove;
+  border-width: 6px;
+}
+p.ridge {
+  border-style: ridge;
+}
+p.inset {
+  border-style: inset;
+}
+p.outset {
+  border-style: outset;
+  border-width: 15px 10px 4px 30px;
+}
+p.none {
+  border-style: none;
+}
+p.hidden {
+  border-style: hidden;
+}
+p.mix {
+  border-style: dotted dashed solid double;
+  border-top-color: brown;
+  border-right-color: fuchsia;
+  border-bottom-color: cadetblue;
+  border-left-color: burlywood;
+}
